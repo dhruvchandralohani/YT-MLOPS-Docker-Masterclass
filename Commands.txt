@@ -1,4 +1,4 @@
-Build Docker Image: docker build -t mlops-docker-demo.
+Build Docker Image: docker build -t mlops-docker-demo(you can pick any name).
 Run the container: docker run -p 5000:5000 mlops-docker-demo
 Tag your image: docker tag mlops-docker-demo dhruvlohani/mlops-docker-demo:latest
 Assure that you are logged in: docker login
