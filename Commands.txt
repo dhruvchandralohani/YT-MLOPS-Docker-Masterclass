@@ -1,0 +1,7 @@
+Build Docker Image: docker build -t mlops-docker-demo.
+Run the container: docker run -p 5000:5000 mlops-docker-demo
+Tag your image: docker tag mlops-docker-demo dhruvlohani/mlops-docker-demo:latest
+Assure that you are logged in: docker login
+Push image to DockerHub: docker push dhruvlohani/mlops-docker-demo:latest
+Pull umage from DockerHub: docker pull dhruvlohani/mlops-docker-demo:latest
+Run the pullled image: docker run -p 5000:5000 dhruvlohani/mlops-docker-demo:latest
